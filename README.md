@@ -11,12 +11,6 @@ Advanced Roblox bootstrapper with mod support, FPS unlocker, and iOS compatibili
 - **💉 DLL Injection**: Custom DLL support
 - **🖥️ Graphics Settings**: Quality presets
 
-## 📁 Mods Folder Structure
-Mods/
-├── Fonts/ # .ttf files
-├── Scripts/ # .lua files
-└── Textures/ # .png files
-
 ## 🚀 Usage
 
 1. Place mods in the Mods folder
@@ -47,3 +41,4 @@ Create your feature branch
 Commit your changes
 Push to the branch
 Open a Pull Request
+# iStrapper is unfinished, it doesnt work currently and the next update will be soon.)
