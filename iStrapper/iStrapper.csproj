@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>iStrapper</AssemblyName>
+    <RootNamespace>iStrapper</RootNamespace>
+    <ApplicationIcon>Assets\iStrapper.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyHook" Version="2.7.7097" />
+  </ItemGroup>
+
+  <!-- Include custom fonts -->
+  <ItemGroup>
+    <Resource Include="Fonts\**\*" />
+  </ItemGroup>
+
+  <!-- Include mods folder -->
+  <ItemGroup>
+    <None Include="Mods\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
